@@ -2,6 +2,7 @@
 
 .entire-grid{
   
+  background-color: rgb(245, 245, 245);
     display:grid;
     grid-template-rows:200px 200px 200px;
     height:600px;
@@ -42,6 +43,8 @@
 }
 
 .button1, .button2{
+    background-color: rgb(71, 71, 71);
+  color:white;
   font-size:12.5px;
   
 }
