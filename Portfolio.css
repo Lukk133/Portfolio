@@ -1,0 +1,134 @@
+
+
+.entire-grid{
+  
+    display:grid;
+    grid-template-rows:200px 200px 200px;
+    height:600px;
+    width:470px;
+    border-style: solid;
+    color:rgb(0, 0, 0);
+    column-gap: 16px;
+    row-gap: 10px;
+  }
+
+
+.top-section{
+  
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        border:none;
+        border-color:black;
+        
+}
+.profilowe{
+  width: 150px;
+  height:150px;
+  border-radius: 75px;
+  object-fit: cover;
+  margin-left:28px;
+  margin-top:20px;
+}
+.opis{
+  display: grid;
+  align-items: center;
+}
+.dyskoteka{
+  position:fixed;
+  top:170px;
+  left:285px;
+  width:100px;
+  height:30px;
+  font-size:15px;
+}
+
+.button1, .button2{
+  font-size:12.5px;
+  
+}
+.button1{
+  position:absolute;
+  border-style:solid;
+  border-color:black;
+  border-width:10px;
+  
+  align-items: center;
+ 
+  width: 20px;
+  top:185px;
+  left:58px;
+}
+.button2{
+  position:absolute;
+  align-items: center;
+  width: 20px;
+  top:185px;
+  left:148px;
+
+}
+.mid-section{
+  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        border:none;
+}
+.color1, .color2, .color3, .color4, .color5,
+ .bg1, .bg2, .bg3, .bg4, .bg5,
+  .button1, .button2
+  {
+    border:none;
+  cursor: pointer;
+}
+.color1{
+  background-color: aqua;
+}
+.color2{
+  background-color: rgb(38, 0, 255);
+}
+.color3{
+  background-color: rgb(51, 255, 0);
+}
+.color4{
+  background-color: rgb(255, 238, 0);
+}
+.color5{
+  background-color: rgb(255, 0, 0);
+}
+.section1{
+  display: grid;
+  background-color: rgb(38, 0, 255);
+}
+
+.bg1 {
+  background-color: aqua;
+  }
+  .bg2 {
+    background-color: rgb(38, 0, 255);
+    color:white;
+  }
+    .bg3 {
+      background-color: rgb(51, 255, 0);
+    }
+      .bg4 {
+        background-color: rgb(255, 238, 0);
+      }
+        .bg5 {
+          background-color: rgb(255, 0, 0);
+          color: white;}
+
+
+
+.dodaj-button{
+  position:absolute;
+  width:100px;
+}
+
+.p1, .p2, .p3, .p4, .p5{
+  padding-top:7px;
+  margin-left:5px;
+  padding-bottom:5px;
+}
+.p{
+  position: absolute;
+  top:417px;
+  left:300px;
+}
