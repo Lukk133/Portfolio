@@ -23,15 +23,17 @@ const opinie4 = opinie
 const random4 = Math.floor(Math.random() * opinie4.length);
 
 const wpisanaCyfra = document.querySelector('.search-bar').value;
-  if (wpisanaCyfra === '1'){{document.querySelector('.p1').innerHTML = opinie[random]}
-}else if (wpisanaCyfra === '2'){{document.querySelector('.p1').innerHTML = opinie[random], document.querySelector('.p2').innerHTML = opinie1[random1]}
+  if (wpisanaCyfra === '1'){{document.querySelector('.p1').innerHTML = opinie[random], document.querySelector('.p2').innerHTML = '',
+  document.querySelector('.p3').innerHTML = '', document.querySelector('.p4').innerHTML = '', document.querySelector('.p5').innerHTML = ''}
+}else if (wpisanaCyfra === '2'){{document.querySelector('.p1').innerHTML = opinie[random], document.querySelector('.p2').innerHTML = opinie1[random1],
+document.querySelector('.p3').innerHTML = '', document.querySelector('.p4').innerHTML = '', document.querySelector('.p5').innerHTML = ''}
 
 }else if (wpisanaCyfra === '3'){{document.querySelector('.p1').innerHTML = opinie[random], document.querySelector('.p2').innerHTML = opinie1[random1],
-document.querySelector('.p3').innerHTML = opinie2[random2]}
+document.querySelector('.p3').innerHTML = opinie2[random2], document.querySelector('.p4').innerHTML = '', document.querySelector('.p5').innerHTML = ''}
 
 
 }else if (wpisanaCyfra === '4'){{document.querySelector('.p1').innerHTML = opinie[random], document.querySelector('.p2').innerHTML = opinie1[random1],
-document.querySelector('.p3').innerHTML = opinie2[random2], document.querySelector('.p4').innerHTML = opinie3[random3]}}
+document.querySelector('.p3').innerHTML = opinie2[random2], document.querySelector('.p4').innerHTML = opinie3[random3]} document.querySelector('.p5').innerHTML = ''}
 
 else if (wpisanaCyfra === '5'){{document.querySelector('.p1').innerHTML = opinie[random], document.querySelector('.p2').innerHTML = opinie1[random1],
 document.querySelector('.p3').innerHTML = opinie2[random2], document.querySelector('.p4').innerHTML = opinie3[random3], 
